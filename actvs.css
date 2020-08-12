@@ -1,0 +1,35 @@
+.input-container{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    padding: 5px auto;
+    flex-wrap: nowrap;
+    height: 200px;
+    width: 250px;
+    margin: 10em auto;
+    border-radius: 6%;
+}
+.txt{
+    text-align: right;
+    width: 203px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 5%;
+    font: bold;
+    color: cyan;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tables-inputs button{
+    display: flexbox;
+    padding: 5px ;
+    width: 50px;
+    border-style: solid;
+    border-color: yellow;
+    margin-bottom: 2px;
+    font-weight: bold;
+    background-color:cornsilk;
+
+}

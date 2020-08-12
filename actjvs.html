@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="actvs.css">
+</head>
+<body>
+<div class="input-container">
+   <form name="calculator" action="">
+           
+
+      <!--first row-->
+      <div class="display">
+                         
+             <input class = "txt" type = "text"   id = "display02" disabled>
+          
+      </div>
+      <div class="display">
+                         
+         <input class = "txt" type = "text"   id = "display" disabled>
+      
+      </div> 
+         <div class = "tables-inputs">
+               <!--first row-->
+               <div class = "input-buttons">
+                  <button class="number" type="button" onclick="setValue('1')"> 1 </button>
+                  <button class="number" type="button" onclick="setValue('2')"> 2 </button>
+                  <button class="number" type="button" onclick="setValue('3')"> 3 </button>
+                  <button type="button" onclick="operator('x')" > x </button>
+               </div>
+               <!--second row-->
+               <div class = "input-buttons">
+                  <button class="number" type="button" onclick="setValue('4')"> 4 </button>
+                  <button class="number" type="button" onclick="setValue('5')"> 5 </button>
+                  <button class="number" type="button" onclick="setValue('6')"> 6 </button>
+                  <button type="button" onclick="operator('/')" > / </button>
+               </div>
+               <!--third row-->
+               <div class = "input-buttons">
+                  <button class="number" type="button" onclick="setValue('7')"> 7 </button>
+                  <button class="number" type="button" onclick="setValue('8')"> 8 </button>
+                  <button class="number" type="button" onclick="setValue('9')"> 9 </button>
+                  <button type="button" onclick="operator('+')" > + </button>
+               </div>
+               <!--fourth row-->
+               <div class = "input-buttons">
+               <button type="button" onclick="clearInput()"> C </button>
+               <button class="number" type="button" onclick="setValue( '0' )"> 0 </button>
+            
+               <button class="result" type="button" onclick="comppute()" >=</button>    
+               
+               
+        <!--       <button type="button" name="result" value="="
+               onclick="calculator.display.value =eval(calculator.display.value)"> = </button>   -->        
+            
+               <button type="button" onclick="operator('-')" > - </button>
+               </div> 
+
+            
+
+      
+
+      </div>
+      
+</form>
+
+</div>
+
+</body>
+<script src="actjvs.js" ></script>
+</html>
