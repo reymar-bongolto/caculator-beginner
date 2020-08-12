@@ -10,17 +10,13 @@ function setValue(x)
 
 function operator(formula)
 {
-        
-               
                 op = formula;
                 second_val = first_val;
                 first_val = '';    
                 calculator.display02.value = second_val;
                 calculator.display.value = null;
 
-        
 
-                
 }
 
 function comppute(result)
